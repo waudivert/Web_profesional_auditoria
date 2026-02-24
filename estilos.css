@@ -1,0 +1,142 @@
+:root {
+  --primario: #0B2A4A;
+  --primario-claro: #124B7A;
+  --celeste: #38BDF8;
+  --resaltado: #C6A15B;
+  --bg: #F6F8FB;
+  --texto: #111827;
+  --border: #E5E7EB;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+}
+
+.navbar_personal {
+  background-color: #fffffff2;
+  border-bottom: px solid #E5E7EB;
+  box-shadow: 0 4px 20px #0000000a;
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left: 11%;
+}
+
+
+.brand-text{
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primario);
+  letter-spacing: 0.5px;
+}
+
+/*Secciones*/
+.nav-link {
+  font-weight: 500;
+  color: var(--texto);
+  margin: 0 8px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/*Hover elegante*/
+.nav-link:hover {
+  background: rgba(17,24,39,0.05);
+  border-radius: 25px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+/*Botón*/
+.contacto {
+  background-color: var(--primario);
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  color: white;
+
+}
+
+.contacto:hover {
+  background-color: var(--primario-claro);
+}
+
+/*INICIO*/
+/* Columna izquierda */
+.badge{
+  display: inline-block;
+  padding: 15px;
+  border-radius: 800px;
+  font-size: 16px;
+  background: #38bdf81f;
+  border: 1px solid #38bdf840;
+  color: var(--primario);
+  font-weight: 600;
+  margin: 0 0 14px;
+  margin-top: 11%;
+}
+#inicio{
+  margin-top:1%;
+  display: flex;
+  padding-left: 12%;
+  align-items: center;
+  max-width: 96%;
+}
+
+.titulo{
+  color: var(--primario);
+  font-weight: 600;
+  font-size: 45px;
+  margin-top: 2%;
+}
+
+.presentacion{
+    color:#5B6777; /* texto elegante (gris azulado) */
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 80%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+/* Columna derecha */
+
+.contDerecho .card{
+  width: 90% !important;
+  max-width: 90%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 13%;
+  align-items: center;
+}
+
+.contDerecho .card-img-top{
+  margin-top: 30px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.contDerecho .card-title{
+  color: var(--primario);
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 3%;
+}
+
+.contDerecho .card-text{
+  color:#5B6777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: .9rem;
+}
+.chip{
+  font-size: 12px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.9);
+  display: inline;
+}
