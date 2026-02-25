@@ -11,6 +11,8 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg);
+  color:var(--texto)
+  
 }
 
 .navbar_personal {
@@ -19,7 +21,8 @@ body {
   box-shadow: 0 4px 20px #0000000a;
   padding-top:1%;
   padding-bottom:1%;
-  padding-left: 11%;
+  padding-left: 21%;
+  padding-right: 19%;
 }
 
 
@@ -74,21 +77,22 @@ body {
   color: var(--primario);
   font-weight: 600;
   margin: 0 0 14px;
-  margin-top: 11%;
+  margin-top: 15%;
 }
 #inicio{
   margin-top:1%;
   display: flex;
-  padding-left: 12%;
+  padding-left: 22%;
   align-items: center;
-  max-width: 96%;
+  max-width: 80%;
 }
 
 .titulo{
   color: var(--primario);
-  font-weight: 600;
+  font-weight: 900;
   font-size: 45px;
   margin-top: 2%;
+  margin: 0 0 12px;
 }
 
 .presentacion{
@@ -111,11 +115,12 @@ body {
   box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
   margin-top: 13%;
   align-items: center;
+  margin-left: 10%;
 }
 
 .contDerecho .card-img-top{
   margin-top: 30px;
-  height: 230px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -140,3 +145,170 @@ body {
   background: rgba(255,255,255,0.9);
   display: inline;
 }
+
+/*Sobre*/
+
+.cabecera{
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top:5%;
+  display: flex;
+  padding-left: 22%;
+  align-items: center;
+  max-width: 80%;
+  
+}
+
+.cabTexto{
+  color:#5B6777; /* texto elegante (gris azulado) */
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 80%;
+  margin-top: 4%;
+  margin-top:1%;
+  display: flex;
+  padding-left: 22%;
+  align-items: center;
+  max-width: 80%;
+}
+
+/*BIOGRAFIA*/
+.biografia .card{
+  width: 70% !important;
+  max-width: 55%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 2%;
+  align-items: center;
+  margin-left: 45%;
+  padding: 5%;
+}
+
+.biografia .card-title{
+  color: var(--primario);
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 3%;
+}
+
+.biografia .card-text{
+  color:#5B6777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: .9rem;
+  margin-top:15px;
+  text-align: justify;
+
+}
+
+/*ESTUDIOS*/
+.estudiosExperiencia .card{
+  width: 70% !important;
+  max-width: 53%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 2%;
+  align-items: center;
+  margin-left: 7%;
+  padding: 1.7%;
+}
+
+.estudiosExperiencia .card-title{
+  color: var(--primario);
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 3%;
+}
+
+.estudiosExperiencia .list-check{
+  color:#5B6777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: .9rem;
+  margin-top:15px;
+  text-align: justify;
+}
+
+/*SERVICIOS*/
+#Servicios{
+  background-color: white;
+  margin-top: 5%;
+  border:1px solid #e2e2e2 ;
+}
+
+.servicios{
+width: 61%;
+margin-left: 21.7%;
+}
+.cabecera{
+  margin-top: 3%;
+}
+
+
+.servicios .card{
+  width: 85% !important;
+  max-width: 85%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 2%;
+  align-items: center;
+  padding: 1.7%;
+  height: 100%;
+}
+.servicios .card-text{
+  color:#5B6777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: .9rem;
+  margin-top:15px;
+  text-align: justify;
+}
+
+.servicios .card-title{
+  color: var(--primario);
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 3%;
+}
+
+.publico{
+  width: 61%;
+margin-left: 21.7%;
+margin-top: 1%;
+}
+.publico .card{
+  width: 100% !important;
+  max-width: 96.5%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 2%;
+  align-items: center;
+  padding: 1.7%;
+  margin-top: 16px;
+  border-left: 4px solid var(--resaltado);
+  height: 75%;
+}
+.publico .card-text{
+  color:#5B6777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 2%;
+  margin-top:15px;
+  text-align: left;
+
+}
+.publico .card-title{
+  color: var(--primario);
+  font-weight: 700;
+  font-size: 19px;
+}
+
+
