@@ -89,7 +89,7 @@ body {
 
 .titulo{
   color: var(--primario);
-  font-weight: 900;
+  font-weight: 800;
   font-size: 45px;
   margin-top: 2%;
   margin: 0 0 12px;
@@ -237,7 +237,8 @@ body {
 #Servicios{
   background-color: white;
   margin-top: 5%;
-  border:1px solid #e2e2e2 ;
+  border:1px solid #e2e2e2;
+  padding-bottom: 3%;
 }
 
 .servicios{
@@ -292,7 +293,6 @@ margin-top: 1%;
   margin-top: 2%;
   align-items: center;
   padding: 1.7%;
-  margin-top: 16px;
   border-left: 4px solid var(--resaltado);
   height: 75%;
 }
@@ -311,4 +311,36 @@ margin-top: 1%;
   font-size: 19px;
 }
 
+
+/*PROYECTOS*/
+
+#Proyectos .card{
+    width: 57% !important;
+  max-width: 57%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 2%;
+  align-items: center;
+  margin-left: 23%;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+#Proyectos.card-text{
+    color:#5B6777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 4%;
+  margin-top:15px;
+  text-align: left;
+}
+
+#Proyectos .card-title{
+  color: var(--primario);
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 12px;
+}
 
