@@ -271,7 +271,7 @@ margin-left: 21.7%;
   line-height: 25px;
   margin-bottom: .9rem;
   margin-top:15px;
-  text-align: justify;
+  text-align: left;
 }
 
 .servicios .card-title{
@@ -431,4 +431,7 @@ width: 100%;
 
 .logoImagen{
   height: 80px;
+}
+.linea{
+  margin-top: 8.7%;
 }
