@@ -146,6 +146,7 @@ body {
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.9);
   display: inline;
+  margin-right: 3%;
 }
 
 /*Sobre*/
