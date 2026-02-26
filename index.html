@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar_personal fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand brand-text" href="#">Cristian Audivert</a>
+                <img src="LOGO.png" alt="Logotipo" class="logoImagen">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,10 +25,10 @@
                     <div class="navbar-nav nav-links">
                         <a class="nav-link" href="#inicio">Inicio</a>
                         <a class="nav-link" href="#sobre">Profesional</a>
-                        <a class="nav-link" href="#servicios">Servicios</a>
-                        <a class="nav-link" href="#experiencia">Proyectos</a>
+                        <a class="nav-link" href="#Servicios">Servicios</a>
+                        <a class="nav-link" href="#Proyectos">Proyectos</a>
                         <!-- Botón-->
-                        <a class="btn btn-primary ms-lg-3 contacto" href="#contacto">Contacto</a>
+                        <a class="btn btn-primary ms-lg-3 contacto" href="#ContactoSeccion">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -51,12 +51,14 @@
                     regulados
                     y empresariales complejos.
                 </p>
-                <button type="button" class=" contacto">Agendar consulta</button>
+                <a href="#ContactoSeccion">
+                    <button type="button" class=" contacto">Agendar consulta</button>
+                </a>
             </div>
 
             <div class="col-md-6 contDerecho">
                 <div class="card" style="width: 18rem;">
-                    <img src="Foto1.png" class="card-img-top" alt="Cristian Audivert">
+                    <img src="Foto1.png" class="card-img-top" alt="Cristian Paul Audivert Sandoval">
                     <div class="card-body">
                         <h5 class="card-title">Crecimiento de negocios</h5>
                         <p class="card-text">Acompañamiento estratégico para fortalecer el control interno, mejorar
@@ -238,7 +240,8 @@
                     <div class="timeline_dot"></div>
                     <li class="list-group-item">
                         <h3 class="card-title">Estructuración financiera de proyectos</h3>
-                        <p>Telecomunicaciones, inmobiliario, seguros, empresas prestadoras de servicios y sector comercial.</p>
+                        <p>Telecomunicaciones, inmobiliario, seguros, empresas prestadoras de servicios y sector
+                            comercial.</p>
                     </li>
                     <li class="list-group-item">
                         <h3 class="card-title">Evaluación económica</h3>
@@ -250,14 +253,89 @@
                     </li>
                     <li class="list-group-item">
                         <h3 class="card-title">Diseño e implementación de sociedades holding</h3>
-                        <p class="card-text">Centralización de control, organización, procedimientos y reporting consolidado.</p>
+                        <p class="card-text">Centralización de control, organización, procedimientos y reporting
+                            consolidado.</p>
                     </li>
                 </ul>
             </div>
         </div>
 
-    </section>
-    <script src="js/bootstrap.bundle.js"></script>
+        <!--CONTACTO-->
+        <section class="section" id="ContactoSeccion">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="cabecera">Contacto</h2>
+                    <p class="cabTexto">Escríbame y coordinamos una reunión según su necesidad.</p>
+                </div>
+            </div>
+
+            <div class="container">
+  <div class="row g-4 align-items-stretch">
+
+    <!-- FORMULARIO -->
+    <div class="col-lg-6">
+      <div class="card card-contacto h-100">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Nombre</label>
+              <input type="text" class="form-control" placeholder="Tu nombre">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="tucorreo@ejemplo.com">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Asunto</label>
+              <input type="text" class="form-control" placeholder="Ejem: consulta de auditoría">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Mensaje</label>
+              <textarea class="form-control" rows="5" placeholder="Cuénteme brevemente su necesidad"></textarea>
+            </div>
+
+            <button type="submit" class="btn contacto w-100">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- INFO + IMAGEN -->
+    <div class="col-lg-6">
+      <div class="card card-contacto h-100">
+        <img src="oficina.jpg" class="imagen-contacto" alt="Oficina corporativa">
+
+        <div class="card-body">
+          <h5 class="card-title">Datos de contacto</h5>
+
+          <p><strong>Email:</strong>
+            <a href="mailto:caudivert@gmail.com" class="link-contacto" style="text-decoration: none; color: rgb(115, 151, 193)">caudivert@gmail.com</a>
+          </p>
+
+          <p><strong>Teléfono:</strong>
+            <a style="text-decoration: none" >+595 991 887 854</a>
+          </p>
+
+          <p><strong>Ubicación:</strong> Asunción, Paraguay</p>
+          <p><strong>LinkedIn:</strong> Cristian Audivert</p>
+
+          <a class="btn badge mt-3 w-100" href="https://wa.me/595991887854" target="_blank">
+            Iniciar chat por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+        </section>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

@@ -6,7 +6,9 @@
   --bg: #F6F8FB;
   --texto: #111827;
   --border: #E5E7EB;
+  
 }
+
 
 body {
   font-family: 'Inter', sans-serif;
@@ -77,7 +79,7 @@ body {
   color: var(--primario);
   font-weight: 600;
   margin: 0 0 14px;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 #inicio{
   margin-top:1%;
@@ -113,7 +115,7 @@ body {
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
-  margin-top: 13%;
+  margin-top: 19%;
   align-items: center;
   margin-left: 10%;
 }
@@ -316,14 +318,14 @@ margin-top: 1%;
 
 #Proyectos .card{
     width: 57% !important;
-  max-width: 57%;
+  max-width: 70%;
   border: 1px solid var(--border);
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
   margin-top: 2%;
   align-items: center;
-  margin-left: 23%;
+  margin-left: 22.8%;
   padding: 1%;
   margin-bottom: 5%;
 }
@@ -342,5 +344,90 @@ margin-top: 1%;
   font-weight: 700;
   font-size: 19px;
   margin-top: 12px;
+  width: 100%;
 }
 
+/*CONTACTO*/
+#ContactoSeccion{
+  background-color: white;
+  margin-top: 5%;
+  border:1px solid #e2e2e2;
+  padding-bottom: 3%;
+}
+#ContactoSeccion .formulario{
+  margin-left: 11%;
+}
+ .formulario .card{
+  width: 100%;
+  max-width: 50%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+.formulario .form-label{
+  color: var(--primario);
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 12px;
+width: 100%;
+}
+.formulario .form-control{
+      color:#5B6777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 4%;
+  margin-top:1px;
+  max-width: 90%!important;
+}
+
+.formulario{
+  align-items: left;
+}
+
+.formulario .infoExtra .card{
+  width: 100%;
+  max-width: 50%;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(11, 42, 74, 0.08);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+.formulario .infoExtra .cardContacto {
+  color: var(--primario);
+  font-size: 16px;
+  margin-top: 12px;
+  width: 100%;
+  text-decoration-color: none;
+}
+
+#ContactoSeccion{
+  width: 100%;
+}
+
+.card-contacto {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+  padding: 15px;
+}
+
+.imagen-contacto {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-top: 12px;
+}
+
+.logoImagen{
+  height: 80px;
+}
