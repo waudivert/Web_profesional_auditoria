@@ -1,15 +1,16 @@
+// altura navbar
 function alturaNavbar() {
   const nav = document.querySelector(".navbar_personal");
   return nav ? nav.offsetHeight : 0;
 }
 
 
-// ====== FORM: validación básica y mensaje ======
+// FORM: validación básica y mensaje 
 
 const form = document.querySelector("#ContactoSeccion form");
 
 function emailValido(email) {
-  // validación simple (no rebuscada)
+  // validación simple 
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
@@ -64,7 +65,7 @@ if (form) {
       return;
     }
 
-    // Simular envío (sin backend)
+    // Simular envío 
     mostrarAlerta("Mensaje enviado correctamente. Me contactaré pronto.", "success");
     form.reset();
   });
