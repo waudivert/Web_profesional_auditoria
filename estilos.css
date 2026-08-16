@@ -774,3 +774,60 @@ section {
     padding: 6px 9px;
   }
 }
+
+/* Corrección sobre profesional */
+@media (max-width: 767.98px) {
+
+  #sobre {
+    padding: 45px 16px;
+  }
+
+  #sobre .row {
+    width: 100%;
+    margin: 0;
+  }
+
+  .biografia,
+  .estudiosExperiencia {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .biografia .card,
+  .estudiosExperiencia .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 20px 0 !important;
+    padding: 0 !important;
+  }
+
+  .biografia .card-body,
+  .estudiosExperiencia .card-body {
+    width: 100%;
+    padding: 22px;
+  }
+
+  .biografia .card-text {
+    width: 100%;
+    text-align: left !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    white-space: normal;
+  }
+
+  .estudiosExperiencia .list-check {
+    width: 100%;
+    text-align: left !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    padding-left: 20px;
+  }
+
+  .estudiosExperiencia .list-check li {
+    text-align: left !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+  }
+}
